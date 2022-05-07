@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<title>faleconosco</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">Untitled Test Case</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://automationpractice.com/index.php<datalist><option>http://automationpractice.com/index.php</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//header[@id='header']/div[3]<datalist><option>xpath=//header[@id='header']/div[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Contact us'])[1]/following::div[1]</option><option>xpath=//header/div[3]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>link=Contact us<datalist><option>link=Contact us</option><option>xpath=//a[contains(text(),'Contact us')]</option><option>xpath=//div[@id='contact-link']/a</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sign in'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/preceding::a[2]</option><option>xpath=//*/text()[normalize-space(.)='Contact us']/parent::*</option><option>xpath=//a[@href='http://automationpractice.com/index.php?controller=contact']</option><option>xpath=//div[2]/a</option><option>css=a[title="Contact Us"]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//button[@id='submitMessage']/span<datalist><option>xpath=//button[@id='submitMessage']/span</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Message'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Choose File'])[1]/following::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Newsletter'])[1]/preceding::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Ok'])[1]/preceding::span[1]</option><option>xpath=//*/text()[normalize-space(.)='Send']/parent::*</option><option>xpath=//div[2]/button/span</option><option>css=#submitMessage > span</option></datalist></td><td></td></tr>
+<tr><td>assertText</td><td>xpath=//div[@id='center_column']/div/ol/li<datalist><option>xpath=//div[@id='center_column']/div/ol/li</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Customer service - Contact us'])[1]/following::li[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Contact'])[1]/following::li[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='send a message'])[1]/preceding::li[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Subject Heading'])[1]/preceding::li[1]</option><option>xpath=//*/text()[normalize-space(.)='Invalid email address.']/parent::*</option><option>xpath=//ol/li</option><option>css=ol > li</option></datalist></td><td>Invalid email address.</td></tr>
+</tbody></table>
+</body>
+</html>

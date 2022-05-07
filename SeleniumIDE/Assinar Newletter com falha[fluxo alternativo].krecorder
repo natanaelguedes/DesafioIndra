@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<title>Assinar Newletter com sucesso</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">Untitled Test Case</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://automationpractice.com/index.php<datalist><option>http://automationpractice.com/index.php</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>id=newsletter-input<datalist><option>id=newsletter-input</option><option>name=email</option><option>xpath=//input[@id='newsletter-input']</option><option>xpath=//div[@id='newsletter_block_left']/div/form/div/input</option><option>xpath=//div/input</option><option>css=#newsletter-input</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=newsletter-input<datalist><option>id=newsletter-input</option><option>name=email</option><option>xpath=//input[@id='newsletter-input']</option><option>xpath=//div[@id='newsletter_block_left']/div/form/div/input</option><option>xpath=//div/input</option><option>css=#newsletter-input</option></datalist></td><td>ngsneto@gmail.com</td></tr>
+<tr><td>click</td><td>name=submitNewsletter<datalist><option>name=submitNewsletter</option><option>xpath=//button[@name='submitNewsletter']</option><option>xpath=//div[@id='newsletter_block_left']/div/form/div/button</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Newsletter'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Practice Selenium'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Facebook'])[1]/preceding::button[1]</option><option>xpath=//div/button</option><option>css=button[name="submitNewsletter"]</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//div[@id='columns']/p<datalist><option>xpath=//div[@id='columns']/p</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='T-shirts'])[2]/following::p[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Summer Dresses'])[2]/following::p[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='EXCEPTEUROCCAECAT'])[1]/preceding::p[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Shop now !'])[1]/preceding::p[2]</option><option>xpath=//*/text()[normalize-space(.)='Newsletter : This email address is already registered.']/parent::*</option><option>xpath=//div[2]/div/p</option><option>css=p.alert.alert-danger</option></datalist></td><td></td></tr>
+<tr><td>assertText</td><td>xpath=//div[@id='columns']/p<datalist><option>xpath=//div[@id='columns']/p</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='T-shirts'])[2]/following::p[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Summer Dresses'])[2]/following::p[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='EXCEPTEUROCCAECAT'])[1]/preceding::p[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Shop now !'])[1]/preceding::p[2]</option><option>xpath=//*/text()[normalize-space(.)='Newsletter : This email address is already registered.']/parent::*</option><option>xpath=//div[2]/div/p</option><option>css=p.alert.alert-danger</option></datalist></td><td>Newsletter : This email address is already registered.</td></tr>
+</tbody></table>
+</body>
+</html>
